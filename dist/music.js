@@ -1,7 +1,6 @@
 $(document).pjax('a', '#musiclist',{
       timeout: 5000,
 	    fragment: '#musiclist',
-	    cache: false,
 });
 const ap = new APlayer({
     container: document.getElementById('aplayer'),
