@@ -200,7 +200,7 @@
       	var [month, day] = article.date.split('-')
         ''
         ''
-        var defaultPreview = '/bluewolf/imgs/preview/preview1.jpg'
+        var defaultPreview = '/bluewolf/imgs/preview/preview4.jpg'
         var preview = article.preview ? article.preview : defaultPreview
         var path = '/bluewolf/' + article.path
         resultList.append(`<div class="article well clearfix article-body article-excerpt" data-aos="flip-up">
@@ -479,7 +479,7 @@
 <script>
 
     // 配置highslide
-	hs.graphicsDir = '/js/highslide/graphics/'
+	hs.graphicsDir = 'js/highslide/graphics/'
     hs.outlineType = "rounded-white";
     hs.dimmingOpacity = 0.8;
     hs.outlineWhileAnimating = true;
@@ -490,7 +490,7 @@
     hs.transitions = ["expand", "crossfade"];
     hs.lang.number = '共%2张图, 当前是第%1张';
     hs.addSlideshow({
-      interval: 30000,
+      interval: 5000,
       repeat: true,
       useControls: true,
       fixedControls: "fit",
