@@ -1,13 +1,11 @@
 $(document).pjax('a', '#musiclist',{
       timeout: 5000,
 	    fragment: '#musiclist',
-      cache: false,
 });
 const ap = new APlayer({
     container: document.getElementById('aplayer'),
     fixed: true,
     autoplay: true,
-    mutex: false,
 	  lrcType: 3,
     volume: 0.2,
     audio: [
