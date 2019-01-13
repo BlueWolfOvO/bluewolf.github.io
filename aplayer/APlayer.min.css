@@ -1,5 +1,5 @@
 $(document).pjax('a', '#aplayer',{
-      timeout: 5000,
+      timeout: 50000,
 	  fragment: '#aplayer',
 	  cache:false
 });
