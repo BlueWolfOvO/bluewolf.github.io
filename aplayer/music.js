@@ -28,7 +28,7 @@ const ap = new APlayer({
         artist: '清水準一',
         url: 'http://music.163.com/song/media/outer/url?id=760058.mp3',
         cover: 'http://p1.music.126.net/BxiuK1_8_RXArdjxOqqUeg==/3382097775018074.jpg',
-        lrc: '/Bloom of Youth.lrc',
+        lrc: '/aplayer/Bloom of Youth.lrc',
       },
       {
         name: 'A little story（纯钢琴）',
